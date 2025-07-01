@@ -8,6 +8,7 @@ class CasinoCelebrityRoulette {
         this.playerChips = 5000;
         this.betAmount = 100;
         this.spinCost = 100;
+        this.currentWinner = null;
         
         // Love interests configuration
         // NOTE: Place profile images in 'assets/' folder with these exact filenames:
@@ -19,7 +20,9 @@ class CasinoCelebrityRoulette {
                 description: "💕 Que match incrível! Você encontrou Reverssi! Uma pessoa misteriosa que adora jogos de estratégia e sempre consegue virar o jogo a seu favor. Prepare-se para encontros cheios de surpresas e muito charme!",
                 rarity: "Alma Gêmea",
                 value: 1500,
-                color: "#8B008B"
+                color: "#8B008B",
+                whatsapp: "5511999999999",
+                message: "Oi Reverssi! Vim retirar meu prêmio love gatinho ❤️"
             },
             {
                 id: 2,
@@ -28,7 +31,9 @@ class CasinoCelebrityRoulette {
                 description: "💖 Você achou Boleta! Uma pessoa doce como açúcar que sempre traz alegria por onde passa. Adora fazer bolos deliciosos e tem um sorriso que derrete qualquer coração. Que combinação perfeita!",
                 rarity: "Coração Doce",
                 value: 1200,
-                color: "#FF69B4"
+                color: "#FF69B4",
+                whatsapp: "5511888888888",
+                message: "Olá Boleta! Ganhei você na roleta do amor! 💕"
             },
             {
                 id: 3,
@@ -37,7 +42,9 @@ class CasinoCelebrityRoulette {
                 description: "💝 Encontrou Fiapo! Uma alma delicada e sensível que encontra beleza nas pequenas coisas da vida. Adora arte, poesia e conversas profundas ao luar. Um match que toca o coração!",
                 rarity: "Sensível",
                 value: 1400,
-                color: "#9370DB"
+                color: "#9370DB",
+                whatsapp: "5511777777777",
+                message: "E aí Fiapo! A roleta me trouxe até você! 🎰❤️"
             },
             {
                 id: 4,
@@ -46,7 +53,9 @@ class CasinoCelebrityRoulette {
                 description: "🦊 Que esperto! Você encontrou Raposo! Uma pessoa inteligente e cheia de truques na manga, sempre com uma piada na ponta da língua. Aventuras e risadas garantidas nesse relacionamento!",
                 rarity: "Esperto",
                 value: 1000,
-                color: "#BA55D3"
+                color: "#BA55D3",
+                whatsapp: "5511666666666",
+                message: "Oi Raposo! O destino nos uniu na roleta! 🌟"
             },
             {
                 id: 5,
@@ -55,7 +64,9 @@ class CasinoCelebrityRoulette {
                 description: "🌟 Uau! Você achou Marson! Uma pessoa forte e confiável como uma rocha, sempre pronta para apoiar quem ama. Tem um coração gigante e abraços que curam qualquer tristeza!",
                 rarity: "Protetor",
                 value: 1600,
-                color: "#8B008B"
+                color: "#8B008B",
+                whatsapp: "5511555555555",
+                message: "Olá Marson! Você foi meu prêmio especial! 💖"
             },
             {
                 id: 6,
@@ -64,7 +75,9 @@ class CasinoCelebrityRoulette {
                 description: "⚡ Incrível! Você encontrou Thigas! Uma pessoa cheia de energia e paixão pela vida, que transforma qualquer momento comum em uma aventura épica. Prepare-se para viver intensamente!",
                 rarity: "Energético",
                 value: 1300,
-                color: "#DA70D6"
+                color: "#DA70D6",
+                whatsapp: "5511444444444",
+                message: "Oi Thigas! A energia da roleta me trouxe até você! ⚡❤️"
             },
             {
                 id: 7,
@@ -73,7 +86,9 @@ class CasinoCelebrityRoulette {
                 description: "🤗 Que sorte! Você encontrou Amigão! Uma pessoa leal e carinhosa que está sempre pronta para uma boa conversa e um abraço apertado. O tipo de pessoa que faz qualquer dia ficar melhor!",
                 rarity: "Amigo Fiel",
                 value: 1100,
-                color: "#9370DB"
+                color: "#9370DB",
+                whatsapp: "5511333333333",
+                message: "E aí Amigão! Somos um match perfeito! 🎯💕"
             }
         ];
 
@@ -234,6 +249,9 @@ class CasinoCelebrityRoulette {
         const prizeRarity = document.getElementById('prizeRarity');
         const prizeValue = document.getElementById('prizeValue');
 
+        // Store current winner for WhatsApp claim
+        this.currentWinner = person;
+
         // Update modal content
         prizeName.textContent = person.name;
         prizeImage.src = person.image;
@@ -321,8 +339,16 @@ class CasinoCelebrityRoulette {
 
     // Claim prize function - opens WhatsApp with pre-written message
     claimPrize() {
-        const message = encodeURIComponent("Vim retirar meu prêmio love gatinho ❤️");
-        const whatsappURL = `https://wa.me/?text=${message}`;
+        // Get the current winner from the stored data
+        const winner = this.currentWinner;
+        if (!winner) {
+            console.error('No winner data found');
+            return;
+        }
+        
+        const phoneNumber = winner.whatsapp;
+        const message = encodeURIComponent(winner.message);
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
         
         // Open WhatsApp in a new tab
         window.open(whatsappURL, '_blank');
