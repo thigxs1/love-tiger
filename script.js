@@ -66,7 +66,7 @@ class CasinoCelebrityRoulette {
                 value: 1600,
                 color: "#8B008B",
                 whatsapp: "5519978273226",
-                message: "Olá Marson! Você foi meu prêmio especial! 💖"
+                message: "Ooi Rapha, me levar pra uma aventura em off cm vc rs 💖"
             },
             {
                 id: 6,
