@@ -77,7 +77,7 @@ class CasinoCelebrityRoulette {
                 value: 1300,
                 color: "#DA70D6",
                 whatsapp: "5519998662579",
-                message: "Oi Thi, qria tanto provar esse ngc gostoso q sua mãe fez...😏"
+                message: "Me mostra que essas mãos sabem além de bolar e cozinhar...😏"
             },
             {
                 id: 7,
