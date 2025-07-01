@@ -87,7 +87,8 @@ class CasinoCelebrityRoulette {
                 rarity: "Amigo Fiel",
                 value: 1100,
                 color: "#9370DB",
-                whatsapp: "5519988403286",                    message: "Ei amigão, vai toma no cu 🎯💕"
+                whatsapp: "5519988403286",                    
+                message: "Ooi amigão, ouvi dizer q tem talentos ocultos...rs 🎯💕"
             }
         ];
 
