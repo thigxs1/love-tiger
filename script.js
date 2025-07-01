@@ -16,79 +16,78 @@ class CasinoCelebrityRoulette {
             {
                 id: 1,
                 name: "Reverssi",
-                image: "assets/reverssi.jpg", // PLACE IMAGE HERE: assets/reverssi.jpg
-                description: "💕 Que match incrível! Você encontrou Reverssi! Uma pessoa misteriosa que adora jogos de estratégia e sempre consegue virar o jogo a seu favor. Prepare-se para encontros cheios de surpresas e muito charme!",
-                rarity: "Alma Gêmea",
-                value: 1500,
-                color: "#8B008B",
-                whatsapp: "5511999999999",
-                message: "Oi Reverssi! Vim retirar meu prêmio love gatinho ❤️"
+                    image: "assets/reverssi.jpg", // PLACE IMAGE HERE: assets/reverssi.jpg
+                    description: "💕 Que match incrível! Você encontrou Reverssi! Nosso Cristian Grey do interior, jovem trabalhor, engenheiro e de coração gigante. As vezes meio lerdão, mas cheio de potencial e tcham",
+                    rarity: "Alma Gêmea",
+                    value: 1500,
+                    color: "#8B008B",
+                    whatsapp: "5519984244480",
+                    message: "Oii amor! Me mostra por que te chamam de SR. Grey e me usa! ❤️"
             },
             {
                 id: 2,
                 name: "Boleta",
                 image: "assets/boleta.jpg", // PLACE IMAGE HERE: assets/boleta.jpg
-                description: "💖 Você achou Boleta! Uma pessoa doce como açúcar que sempre traz alegria por onde passa. Adora fazer bolos deliciosos e tem um sorriso que derrete qualquer coração. Que combinação perfeita!",
+                description: "💖 Você achou Boleta! Gordinho bololo da galera, amante de rodizio japones, loiras e whisky, um homem de classe alguns diriam. Que combinação perfeita!",
                 rarity: "Coração Doce",
                 value: 1200,
                 color: "#FF69B4",
-                whatsapp: "5511888888888",
-                message: "Olá Boleta! Ganhei você na roleta do amor! 💕"
+                whatsapp: "5519983656904",
+                message: "Olá Bolinha, me mostra que não é só em itaquera que habita um gigante rs 💕"
             },
             {
                 id: 3,
                 name: "Fiapo",
                 image: "assets/fiapo.jpg", // PLACE IMAGE HERE: assets/fiapo.jpg
-                description: "💝 Encontrou Fiapo! Uma alma delicada e sensível que encontra beleza nas pequenas coisas da vida. Adora arte, poesia e conversas profundas ao luar. Um match que toca o coração!",
+                description: "💝 Encontrou Fiapo! Amante do RJ e dançarino de longa data, pode ser que encontre sua paz nesses cachinhos (Ou não)",
                 rarity: "Sensível",
                 value: 1400,
                 color: "#9370DB",
-                whatsapp: "5511777777777",
-                message: "E aí Fiapo! A roleta me trouxe até você! 🎰❤️"
+                whatsapp: "5519982087454",
+                message: "Ei FP, faz a jogadinha pra mim! 🎰❤️"
             },
             {
                 id: 4,
                 name: "Raposo",
                 image: "assets/raposo.jpg", // PLACE IMAGE HERE: assets/raposo.jpg
-                description: "🦊 Que esperto! Você encontrou Raposo! Uma pessoa inteligente e cheia de truques na manga, sempre com uma piada na ponta da língua. Aventuras e risadas garantidas nesse relacionamento!",
+                description: "🦊 Que esperto! Você encontrou Raposo! Carinha de bebê, mas não se engane, este é nosso querido raposo, amante de raves e um antropo de talentos (as vezes uteis)",
                 rarity: "Esperto",
                 value: 1000,
                 color: "#BA55D3",
-                whatsapp: "5511666666666",
-                message: "Oi Raposo! O destino nos uniu na roleta! 🌟"
+                whatsapp: "5519981502331",
+                message: "Raposo, me pegue! 🌟"
             },
             {
                 id: 5,
                 name: "Marson",
                 image: "assets/marson.jpg", // PLACE IMAGE HERE: assets/marson.jpg
-                description: "🌟 Uau! Você achou Marson! Uma pessoa forte e confiável como uma rocha, sempre pronta para apoiar quem ama. Tem um coração gigante e abraços que curam qualquer tristeza!",
+                description: "🌟 Nosso projeto de opala, viciado em experiencias e de grande coração, um pouco quieto mas se der uma chance... não vai se arrepender",
                 rarity: "Protetor",
                 value: 1600,
                 color: "#8B008B",
-                whatsapp: "5511555555555",
+                whatsapp: "5519978273226",
                 message: "Olá Marson! Você foi meu prêmio especial! 💖"
             },
             {
                 id: 6,
                 name: "Thigas",
                 image: "assets/thigas.jpg", // PLACE IMAGE HERE: assets/thigas.jpg
-                description: "⚡ Incrível! Você encontrou Thigas! Uma pessoa cheia de energia e paixão pela vida, que transforma qualquer momento comum em uma aventura épica. Prepare-se para viver intensamente!",
+                description: "⚡ Talvez um pouco mais louco do que aceitavel, mas sincero e leal, fuma do bom e cozinha melhor 🍁❤️",
                 rarity: "Energético",
                 value: 1300,
                 color: "#DA70D6",
-                whatsapp: "5511444444444",
-                message: "Oi Thigas! A energia da roleta me trouxe até você! ⚡❤️"
+                whatsapp: "5519998662579",
+                message: "Oi Thi, qria tanto provar esse ngc gostoso q sua mãe fez...😏"
             },
             {
                 id: 7,
                 name: "Amigão",
                 image: "assets/amigao.jpg", // PLACE IMAGE HERE: assets/amigao.jpg
-                description: "🤗 Que sorte! Você encontrou Amigão! Uma pessoa leal e carinhosa que está sempre pronta para uma boa conversa e um abraço apertado. O tipo de pessoa que faz qualquer dia ficar melhor!",
+                description: "🤗 Que sorte! Será? Você encontrou Amigão! Uma pessoa tão leal quanto desatenta, o empresário do grupo ( Tamo esperando ele aposentar geral ), sempre q louco nos agracia com um bom humor e piadas.",
                 rarity: "Amigo Fiel",
                 value: 1100,
                 color: "#9370DB",
-                whatsapp: "5511333333333",
-                message: "E aí Amigão! Somos um match perfeito! 🎯💕"
+                whatsapp: "5519988403286",                    message: "Ei amigão, vai toma no cu 🎯💕"
             }
         ];
 
@@ -111,17 +110,19 @@ class CasinoCelebrityRoulette {
             const segment = document.createElement('div');
             segment.className = 'roulette-segment';
             segment.innerHTML = `
+                <div class="segment-background" style="background-image: url('${person.image}'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;"></div>
                 <div class="segment-content">
-                    <img src="${person.image}" alt="${person.name}" class="segment-thumb" onerror="this.style.display='none'">
                     <strong>${person.name}</strong>
                 </div>
             `;
             
-            // Position each segment
+            // Position each segment and set background image
             const rotation = segmentAngle * index;
             segment.style.transform = `rotate(${rotation}deg)`;
-            segment.style.background = person.color;
             segment.setAttribute('data-person-id', person.id);
+            
+            // Set fallback background color
+            segment.style.backgroundColor = person.color;
             
             wheel.appendChild(segment);
         });
